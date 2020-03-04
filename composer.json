@@ -1,0 +1,16 @@
+{
+  "name": "denis/composer",
+  "description": "tags",
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Step\\": "./app"
+    }
+
+  }
+}
